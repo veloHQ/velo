@@ -1,3 +1,4 @@
+import Question from "../components/Question"
 import RightSidebar from "../components/RightSidebar"
 
 export default function Home() {
@@ -8,7 +9,7 @@ export default function Home() {
 
         </div>
         <div className="col-span-4">
-
+          <Question firstName="divine" lastName="edeh" id = "1" post_text="this is a new post" username="divine_edeh" />
         </div>
         <div className="col-span-2">
           <div>
